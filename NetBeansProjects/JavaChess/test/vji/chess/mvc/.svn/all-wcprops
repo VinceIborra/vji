@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/vji/!svn/ver/3/trunk/JavaChess/test/vji/chess/mvc
+END
+MockChessMvcFactoryImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/vji/!svn/ver/3/trunk/JavaChess/test/vji/chess/mvc/MockChessMvcFactoryImpl.java
+END
+ArrangeCommandImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/vji/!svn/ver/3/trunk/JavaChess/test/vji/chess/mvc/ArrangeCommandImplTest.java
+END
+StartBoardViewImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/vji/!svn/ver/3/trunk/JavaChess/test/vji/chess/mvc/StartBoardViewImplTest.java
+END
+BoardViewImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/vji/!svn/ver/3/trunk/JavaChess/test/vji/chess/mvc/BoardViewImplTest.java
+END
+ChessMvcFactoryImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/vji/!svn/ver/3/trunk/JavaChess/test/vji/chess/mvc/ChessMvcFactoryImplTest.java
+END
+MockChessControllerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/vji/!svn/ver/3/trunk/JavaChess/test/vji/chess/mvc/MockChessControllerImpl.java
+END
+MoveCommandImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/vji/!svn/ver/3/trunk/JavaChess/test/vji/chess/mvc/MoveCommandImplTest.java
+END
+ChessControllerImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/vji/!svn/ver/3/trunk/JavaChess/test/vji/chess/mvc/ChessControllerImplTest.java
+END
+ParserImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/vji/!svn/ver/3/trunk/JavaChess/test/vji/chess/mvc/ParserImplTest.java
+END

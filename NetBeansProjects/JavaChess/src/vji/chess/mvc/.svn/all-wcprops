@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/chess/mvc
+END
+ArrangeCommandImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/chess/mvc/ArrangeCommandImpl.java
+END
+ChessMvcFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/chess/mvc/ChessMvcFactory.java
+END
+BoardViewImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/chess/mvc/BoardViewImpl.java
+END
+MoveCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/chess/mvc/MoveCommand.java
+END
+ChessController.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/chess/mvc/ChessController.java
+END
+ParserImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/chess/mvc/ParserImpl.java
+END
+ArrangeCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/chess/mvc/ArrangeCommand.java
+END
+UnknownCommandImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/chess/mvc/UnknownCommandImpl.java
+END
+InputImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/chess/mvc/InputImpl.java
+END
+StartBoardViewImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/chess/mvc/StartBoardViewImpl.java
+END
+OutputImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/chess/mvc/OutputImpl.java
+END
+ChessMvcFactoryImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/chess/mvc/ChessMvcFactoryImpl.java
+END
+MoveCommandImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/chess/mvc/MoveCommandImpl.java
+END
+ChessControllerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/chess/mvc/ChessControllerImpl.java
+END
+UnknownCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/chess/mvc/UnknownCommand.java
+END

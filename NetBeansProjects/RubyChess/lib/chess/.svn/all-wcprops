@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/vji/!svn/ver/5/trunk/RubyChess/lib/chess
+END
+queen.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/vji/!svn/ver/5/trunk/RubyChess/lib/chess/queen.rb
+END
+file.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/vji/!svn/ver/5/trunk/RubyChess/lib/chess/file.rb
+END
+knight.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/vji/!svn/ver/5/trunk/RubyChess/lib/chess/knight.rb
+END
+bishop.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/vji/!svn/ver/5/trunk/RubyChess/lib/chess/bishop.rb
+END
+shade.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/vji/!svn/ver/5/trunk/RubyChess/lib/chess/shade.rb
+END
+piece.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/vji/!svn/ver/5/trunk/RubyChess/lib/chess/piece.rb
+END
+board.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/vji/!svn/ver/5/trunk/RubyChess/lib/chess/board.rb
+END
+king.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/vji/!svn/ver/5/trunk/RubyChess/lib/chess/king.rb
+END
+assertions.rb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/vji/!svn/ver/5/trunk/RubyChess/lib/chess/assertions.rb
+END
+rank.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/vji/!svn/ver/5/trunk/RubyChess/lib/chess/rank.rb
+END
+tracker.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/vji/!svn/ver/5/trunk/RubyChess/lib/chess/tracker.rb
+END
+square.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/vji/!svn/ver/5/trunk/RubyChess/lib/chess/square.rb
+END
+history.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/vji/!svn/ver/5/trunk/RubyChess/lib/chess/history.rb
+END
+colour.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/vji/!svn/ver/5/trunk/RubyChess/lib/chess/colour.rb
+END
+pawn.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/vji/!svn/ver/5/trunk/RubyChess/lib/chess/pawn.rb
+END
+move.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/vji/!svn/ver/5/trunk/RubyChess/lib/chess/move.rb
+END
+factory.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/vji/!svn/ver/5/trunk/RubyChess/lib/chess/factory.rb
+END
+placement.rb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/vji/!svn/ver/5/trunk/RubyChess/lib/chess/placement.rb
+END
+rook.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/vji/!svn/ver/5/trunk/RubyChess/lib/chess/rook.rb
+END

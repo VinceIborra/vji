@@ -1,0 +1,5 @@
+5 5
+bob 1 2 N
+bob LMLMLMLMM
+jan 3 3 E
+jan MMRMMRMRRM

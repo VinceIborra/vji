@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/vji/!svn/ver/3/trunk/JavaChess/test/vji/chess
+END
+ChessFactoryImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/vji/!svn/ver/3/trunk/JavaChess/test/vji/chess/ChessFactoryImplTest.java
+END
+FileTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/vji/!svn/ver/3/trunk/JavaChess/test/vji/chess/FileTest.java
+END
+QueenImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/vji/!svn/ver/3/trunk/JavaChess/test/vji/chess/QueenImplTest.java
+END
+SquareImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/vji/!svn/ver/3/trunk/JavaChess/test/vji/chess/SquareImplTest.java
+END
+ColourTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/vji/!svn/ver/3/trunk/JavaChess/test/vji/chess/ColourTest.java
+END
+ShadeTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/vji/!svn/ver/3/trunk/JavaChess/test/vji/chess/ShadeTest.java
+END
+BishopImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/vji/!svn/ver/3/trunk/JavaChess/test/vji/chess/BishopImplTest.java
+END
+KnightImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/vji/!svn/ver/3/trunk/JavaChess/test/vji/chess/KnightImplTest.java
+END
+PawnImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/vji/!svn/ver/3/trunk/JavaChess/test/vji/chess/PawnImplTest.java
+END
+BoardImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/vji/!svn/ver/3/trunk/JavaChess/test/vji/chess/BoardImplTest.java
+END
+FactoryImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/vji/!svn/ver/3/trunk/JavaChess/test/vji/chess/FactoryImplTest.java
+END
+KingImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/vji/!svn/ver/3/trunk/JavaChess/test/vji/chess/KingImplTest.java
+END
+RankTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/vji/!svn/ver/3/trunk/JavaChess/test/vji/chess/RankTest.java
+END
+RookImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/vji/!svn/ver/3/trunk/JavaChess/test/vji/chess/RookImplTest.java
+END

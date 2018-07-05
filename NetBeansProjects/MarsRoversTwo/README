@@ -1,0 +1,181 @@
+Introduction
+------------
+
+Below is an explanation of my design of the Mars Rovers coding exercise.
+
+Table of Contents
+-----------------
+- Statement of Completeness
+- General Class/Code Organisation
+- Design Principles
+- Design Choices
+- Assumptions/Constraints
+- Potential Enhancements
+
+Statement of Completeness
+-------------------------
+As requested by the coding problem description, below is the evidence that the
+task is complete.
+
+* An explanation of my design of the Mars Rovers coding excercise (this file).
+* The application can be run with the given supplied data by changing directory
+  to the same directory as this README file and running either the runme.sh file
+  (if using Unix) or the runme.bat file (if using Windows).
+* The file MarsRovers.jar file is situated in the "dist" directory, which
+  contains the code to run.
+* The runme.sh/runme.bat scripts have been supplied which run the application
+  against the supplied sample data.
+* JUnit tests have been written for the developed implementation classes.  The
+  results of running these tests can be located in the "build/test/results"
+  directory.
+* Error input files have been created "InputFile_*.txt".  The error files can be
+  run using runme_with_error_files.sh, and the results can be found at
+  runme_with_error_files.results.
+
+General Class/Code Organisation
+-------------------------------
+
+* Most (if not all) of the classes have interfaces associated with them.  An
+object is normally referred to it by its relevant interfaces that it implements,
+and not the class itself.  Note that this rule is relaxed for unit testing.
+
+* All the interfaces and 'simple' classes (exceptions, enums) are contained
+within the com.tw.marsrover package, as well as the driver (Main) class.
+
+* All the implementation classes are contained within the com.tw.marsrover.impl
+package.
+
+
+Design Principles
+-----------------
+* The names of classes, interfaces and methods have been taken from the problem
+domain (i.e. the coding exercise description).
+
+* The different components were designed to be as independent as possible, with
+the assumption that these would form part of a bigger application, possibly
+making use of an Inversion of Control container.  Consequently all dependencies
+are set through setters and these refer to interfaces, rather than specific
+classes.
+
+* The overall design pattern used for the MarsRover application is MVC.  The
+main/driver method/class inputs lines of text from the input file and uses a
+CommandParser object to convert these to command objects.  The command objects
+are then passed on to a RoverController object which makes the relevant changes
+to the model objects (i.e. a Plateau object and the current Rover object.  The
+state of the plateau and the rovers is rendered via a PlateauRenderer object.
+
+* All the exceptions are runtime exceptions.  This is my preference, as I feel
+that exception declarations as part of method definitions tend to make code
+unwieldly and harder to change (i.e. changes propragate through code for each
+new exception defined).  Having said that, I understand this is a source of
+wider java development controversy, and I would be happy to modify given a
+stated team standard.
+
+Design Choices
+--------------
+* The Factory object creates both beans and value objects.  If using an IoC
+container the beans would be created by the container and not the Factory.
+Strictly speaking we could have two different "factories" to make this a bit
+more clear, but for an application of this size it's probably not worth it, at
+this point.  This is probably a target for refactoring.
+
+* The PositionAndOrientation value objects model the position and orientation of
+a rover.  These have been modelled as separate from the Rover itself, as it was
+felt that the position and orientation needed to be modified and altered
+independently from the Rover.  For example, if the position and orientation were
+part of the Rover, than a logical error, could be, to set these values on the
+rover without having these been validated, and hence leaving the Rover in a non
+valid state.
+
+* The Plateau class has dual roles.  It models the properties of the plateau
+itself, and it also acts as a container for the rovers.  Ideally, the role of
+container for the rovers could be factored out into a repository or a separate
+entity given an exploration of requirements.  Given the size of the application
+it's probably easier to leave this way, but it's probably a target for
+refactoring.
+
+* The Rover manages the changes to itself.  The Rover object could have been
+simplified and this logic (due to its simplicity) could have been put either in
+the controller (although it doesn't belong there), or in the Plateau object.  It
+was however felt that only the Rover could determine how to navigate a plateau,
+given it's capabilities and the characteristics of the plateau.
+
+
+Assumptions/Constraints
+-----------------------
+* No validations is performed on whether the beans have been wired correctly. I
+haven't seen a good/tidy way of doing this.  I either have verifications through
+out the code, which makes it look untidy, or I have a two step bean initiation
+process (which seems a bit awkward).  Another option that could be explored
+would be to use aspect orientated code to instrument methods to perform these
+checks, but this is probably outside of the scope of this exercise.  Given the
+size/simplicity of this application I have assumed that the beans will be wired
+correctly by the calling code, and rely on integration/system testing to catch
+these type of errors.
+
+* The instructions did not make a request for any validation of the movement of
+the rovers.  The plateau properties describes a closed off area, and hence this
+implies a natural constraint on the movement of the rovers.  Hence, although not
+explicitly stated in the requirements, this was implemented as a validation
+performed by the rover before moving to a new location.
+
+* Similarly no instructions exist for performing a check that two rovers cannot
+occupy the same location.  We could introduce a check, but it is unclear how
+this check would manifest itself.  Additionally, the requirements do not explore
+what should the rover's behaviour should be in the case of an imminent collision.
+
+An option would be to have this check performed in the plateau, but this doesn't
+seem natural.  Alternatively, a separate object could be used, however, the
+current requirements do not describe a "rover controller" (not in the MVC sense,
+but in the "NASA controls the rovers" sense).  Furthermore, the current design
+assigns the rovers a certain amount of independence, hence providing a "rover
+controller" might require a redesign.
+
+Another option would be to perform this check in the rover, which is probably
+more natural, however, we do not know the capabilities of the rover... i.e.
+should it be aware of other rovers? all other rovers? or a group close to it?
+
+As far as this coding exercise, I've left the check unimplemented, as there are
+a number of options, and none seem obvious.  If this implementation was being
+done for a customer, then I would explore these issues with the customer, until
+we could come up with a more comprehensive description of what the rover's
+behaviour should be.
+
+
+Potential Enhancements
+----------------------
+The following enhancements are obvious "code smells", things that seem
+fairly obvious extensions of the current requirements or things that would be
+fun and/or would make development/debugging/testing easier (or more pleasant).
+In a customer engagement these would be discussed with the customer, and the
+work prioritised accordingly.
+
+* Done - Visitor Pattern
+
+* Done - An assumption could be made that all rovers know about all other rovers.  This
+could allow a rover to decide whether a collision is imminent and act
+accordingly.  See above for exploration of this issue.
+
+* Done - Refactor role of Plateau so that it only encapsulates the functionality of a
+plateau, and implement a repository for Rovers.
+
+* Done - Identify particular rovers in some way, and enhance the commands, so that this
+can refer to a particular rover (would need a change to the input file, or input
+mode).
+
+* Done - The driver/main method/class could be modified or refactored into a separate
+class to support different interactions modes.  For example, refactor current
+main method into a separate interface/class combination and develop a new
+implementation class that supports a more interactive mode (e.g. make a
+move/change at a time, and display results after each change).
+
+* Done - At the momment there is no history or audit information of where the rover's
+have been until it got to it's final destination.  There is a series of commands
+but these represent what was required, not what actually happened (e.g. a
+command might have failed because, because it would have resulted in an invalid
+position or orientation).  It might be an idea to implement a logging/audit
+service which the rover could use to track its movements.
+
+* Done - Create new PlateauRenderer implementation to provide a more visual
+representation of the plateau and the rovers (e.g.  an ascii-art
+representation).

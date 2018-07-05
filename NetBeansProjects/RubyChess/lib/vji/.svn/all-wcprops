@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/vji/!svn/ver/5/trunk/RubyChess/lib/vji
+END
+renum.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/vji/!svn/ver/5/trunk/RubyChess/lib/vji/renum.rb
+END
+string.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/vji/!svn/ver/5/trunk/RubyChess/lib/vji/string.rb
+END
+factory.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/vji/!svn/ver/5/trunk/RubyChess/lib/vji/factory.rb
+END
+assertion_failed_exception.rb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/vji/!svn/ver/5/trunk/RubyChess/lib/vji/assertion_failed_exception.rb
+END
+assertions.rb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/vji/!svn/ver/5/trunk/RubyChess/lib/vji/assertions.rb
+END

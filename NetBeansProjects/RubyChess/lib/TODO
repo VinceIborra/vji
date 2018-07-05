@@ -1,0 +1,8 @@
+* Assertions for factory
+* Validate moves for all pieces where other pieces are in the way
+* Test validation, not just possible moves
+* Investigate castling
+* Investigate pawn capture en passant
+* Investigate promotion
+* Implement check and check mate.
+* Display possible moves to the user, when he/she attempts to make an invalid move.

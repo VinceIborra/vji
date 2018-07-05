@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/vji/!svn/ver/5/trunk/RubyChess/lib/mvc
+END
+arrange_command.rb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/vji/!svn/ver/5/trunk/RubyChess/lib/mvc/arrange_command.rb
+END
+command.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/vji/!svn/ver/5/trunk/RubyChess/lib/mvc/command.rb
+END
+controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/vji/!svn/ver/5/trunk/RubyChess/lib/mvc/controller.rb
+END
+move_command.rb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/vji/!svn/ver/5/trunk/RubyChess/lib/mvc/move_command.rb
+END
+renderer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/vji/!svn/ver/5/trunk/RubyChess/lib/mvc/renderer.rb
+END
+exit_command.rb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/vji/!svn/ver/5/trunk/RubyChess/lib/mvc/exit_command.rb
+END
+factory.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/vji/!svn/ver/5/trunk/RubyChess/lib/mvc/factory.rb
+END
+non_command.rb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/vji/!svn/ver/5/trunk/RubyChess/lib/mvc/non_command.rb
+END
+driver.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/vji/!svn/ver/5/trunk/RubyChess/lib/mvc/driver.rb
+END
+parser.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/vji/!svn/ver/5/trunk/RubyChess/lib/mvc/parser.rb
+END

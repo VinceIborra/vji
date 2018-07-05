@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+  <bean id="chessMvcFactory" class="vji.chess.mvc.ChessMvcFactoryImpl"/>
+  <bean id="chessFactory" class="vji.chess.ChessFactoryImpl"/>
+
+  <bean id="input" class="vji.chess.mvc.InputImpl"/>
+  <bean id="output" class="vji.chess.mvc.OutputImpl"/>
+  <bean id="parser" class="vji.chess.mvc.ParserImpl">
+      <property name="chessFactory" ref="chessFactory"/>
+      <property name="chessMvcFactory" ref="chessMvcFactory"/>
+  </bean>
+
+  <bean id="board" class="vji.chess.BoardImpl">
+    <property name="chessFactory" ref="chessFactory"/>
+  </bean>
+
+  <bean id="controller" class="vji.chess.mvc.ChessControllerImpl">
+    <property name="factory" ref="chessMvcFactory"/>
+    <property name="board" ref="board"/>
+  </bean>
+
+  <bean id="startBoardView" class="vji.chess.mvc.StartBoardViewImpl"/>
+  <bean id="boardView" class="vji.chess.mvc.BoardViewImpl"/>
+
+  <bean id="viewResolver" class="vji.mvc.ViewResolverImpl"/>
+
+  <bean id="driver" class="vji.mvc.DriverImpl">
+    <property name="factory" ref="chessMvcFactory"/>
+    <property name="input" ref="input"/>
+    <property name="output" ref="output"/>
+    <property name="parser" ref="parser"/>
+    <property name="controller" ref="controller"/>
+    <property name="viewResolver" ref="viewResolver"/>
+  </bean>
+
+</beans>

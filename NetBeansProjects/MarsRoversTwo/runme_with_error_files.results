@@ -1,0 +1,34 @@
+vji@spot ~/NetBeansProjects/MarsRovers $ ./runme_with_error_files.sh
+Error: Invalid text command : 1 2 N X
+com.tw.marsrover.InvalidTextCommandException: Invalid text command : 1 2 N X
+	at com.tw.marsrover.impl.CommandParserImpl.parseTextLine(CommandParserImpl.java:59)
+	at com.tw.marsrover.Main.main(Main.java:34)
+Error: Invalid text command : LMLMLMLMMx
+com.tw.marsrover.InvalidTextCommandException: Invalid text command : LMLMLMLMMx
+	at com.tw.marsrover.impl.CommandParserImpl.parseTextLine(CommandParserImpl.java:59)
+	at com.tw.marsrover.Main.main(Main.java:34)
+Error: 
+com.tw.marsrover.UninitialisedPlateauException: 
+	at com.tw.marsrover.impl.PlateauImpl.assertValidPositionAndOrientation(PlateauImpl.java:57)
+	at com.tw.marsrover.impl.RoverImpl.turnLeft(RoverImpl.java:56)
+	at com.tw.marsrover.impl.RoverControllerImpl.processRoverChangeCommand(RoverControllerImpl.java:60)
+	at com.tw.marsrover.impl.RoverControllerImpl.processCommand(RoverControllerImpl.java:38)
+	at com.tw.marsrover.Main.main(Main.java:39)
+Error: 
+com.tw.marsrover.CurrentRoverNotSetException: 
+	at com.tw.marsrover.impl.RoverControllerImpl.processRoverChangeCommand(RoverControllerImpl.java:57)
+	at com.tw.marsrover.impl.RoverControllerImpl.processCommand(RoverControllerImpl.java:38)
+	at com.tw.marsrover.Main.main(Main.java:39)
+There was an invalid change to the rover - command ignored.
+There was an invalid change to the rover - command ignored.
+There was an invalid change to the rover - command ignored.
+There was an invalid change to the rover - command ignored.
+There was an invalid change to the rover - command ignored.
+There was an invalid change to the rover - command ignored.
+There was an invalid change to the rover - command ignored.
+There was an invalid change to the rover - command ignored.
+There was an invalid change to the rover - command ignored.
+There was an invalid change to the rover - command ignored.
+1 3 N
+5 1 E
+

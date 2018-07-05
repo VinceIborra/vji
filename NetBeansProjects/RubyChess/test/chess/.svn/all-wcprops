@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/vji/!svn/ver/5/trunk/RubyChess/test/chess
+END
+file_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/vji/!svn/ver/5/trunk/RubyChess/test/chess/file_test.rb
+END
+square_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/vji/!svn/ver/5/trunk/RubyChess/test/chess/square_test.rb
+END
+history_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/vji/!svn/ver/5/trunk/RubyChess/test/chess/history_test.rb
+END
+colour_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/vji/!svn/ver/5/trunk/RubyChess/test/chess/colour_test.rb
+END
+shade_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/vji/!svn/ver/5/trunk/RubyChess/test/chess/shade_test.rb
+END
+piece_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/vji/!svn/ver/5/trunk/RubyChess/test/chess/piece_test.rb
+END
+move_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/vji/!svn/ver/5/trunk/RubyChess/test/chess/move_test.rb
+END
+board_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/vji/!svn/ver/5/trunk/RubyChess/test/chess/board_test.rb
+END
+factory_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/vji/!svn/ver/5/trunk/RubyChess/test/chess/factory_test.rb
+END
+placement_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/vji/!svn/ver/5/trunk/RubyChess/test/chess/placement_test.rb
+END
+assertions_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/vji/!svn/ver/5/trunk/RubyChess/test/chess/assertions_test.rb
+END
+rank_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/vji/!svn/ver/5/trunk/RubyChess/test/chess/rank_test.rb
+END
+tracker_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/vji/!svn/ver/5/trunk/RubyChess/test/chess/tracker_test.rb
+END

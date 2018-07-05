@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/chess
+END
+QueenImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/chess/QueenImpl.java
+END
+Square.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/chess/Square.java
+END
+Colour.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/chess/Colour.java
+END
+Pawn.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/chess/Pawn.java
+END
+Move.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/chess/Move.java
+END
+KnightImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/chess/KnightImpl.java
+END
+BishopImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/chess/BishopImpl.java
+END
+PieceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/chess/PieceImpl.java
+END
+BoardImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/chess/BoardImpl.java
+END
+KingImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/chess/KingImpl.java
+END
+Rook.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/chess/Rook.java
+END
+Queen.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/chess/Queen.java
+END
+File.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/chess/File.java
+END
+ChessFactoryImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/chess/ChessFactoryImpl.java
+END
+SquareImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/chess/SquareImpl.java
+END
+Knight.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/chess/Knight.java
+END
+Bishop.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/chess/Bishop.java
+END
+Shade.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/chess/Shade.java
+END
+Piece.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/chess/Piece.java
+END
+Board.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/chess/Board.java
+END
+PawnImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/chess/PawnImpl.java
+END
+MoveImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/chess/MoveImpl.java
+END
+King.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/chess/King.java
+END
+Rank.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/chess/Rank.java
+END
+RookImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/chess/RookImpl.java
+END
+ChessFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/chess/ChessFactory.java
+END

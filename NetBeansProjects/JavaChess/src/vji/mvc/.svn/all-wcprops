@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/mvc
+END
+Input.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/mvc/Input.java
+END
+Output.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/mvc/Output.java
+END
+ModelAndViewImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/mvc/ModelAndViewImpl.java
+END
+AppEndCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/mvc/AppEndCommand.java
+END
+Factory.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/mvc/Factory.java
+END
+View.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/mvc/View.java
+END
+DriverImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/mvc/DriverImpl.java
+END
+ModelAndView.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/mvc/ModelAndView.java
+END
+Command.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/mvc/Command.java
+END
+ViewResolverImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/mvc/ViewResolverImpl.java
+END
+AppStartCommandImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/mvc/AppStartCommandImpl.java
+END
+Controller.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/mvc/Controller.java
+END
+AppEndCommandImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/mvc/AppEndCommandImpl.java
+END
+FactoryImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/mvc/FactoryImpl.java
+END
+Driver.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/mvc/Driver.java
+END
+Parser.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/mvc/Parser.java
+END
+ViewResolver.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/mvc/ViewResolver.java
+END
+AppStartCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/vji/!svn/ver/3/trunk/JavaChess/src/vji/mvc/AppStartCommand.java
+END

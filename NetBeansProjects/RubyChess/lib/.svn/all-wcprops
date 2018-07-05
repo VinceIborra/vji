@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/vji/!svn/ver/5/trunk/RubyChess/lib
+END
+TODO
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/vji/!svn/ver/5/trunk/RubyChess/lib/TODO
+END
+main.rb
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/vji/!svn/ver/5/trunk/RubyChess/lib/main.rb
+END
+chess.rb
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/vji/!svn/ver/5/trunk/RubyChess/lib/chess.rb
+END
+mvc.rb
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/vji/!svn/ver/5/trunk/RubyChess/lib/mvc.rb
+END
+vji.rb
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/vji/!svn/ver/5/trunk/RubyChess/lib/vji.rb
+END
