@@ -1,0 +1,6 @@
+V:\home\context\clowder\projects\CSharp\Vji.Sanity\obj\x86\Debug\ResolveAssemblyReference.cache
+V:\home\context\clowder\projects\CSharp\Vji.Sanity\bin\Debug\Vji.Sanity.dll
+V:\home\context\clowder\projects\CSharp\Vji.Sanity\bin\Debug\Vji.Sanity.pdb
+V:\home\context\clowder\projects\CSharp\Vji.Sanity\bin\Debug\NUnit.Framework.dll
+V:\home\context\clowder\projects\CSharp\Vji.Sanity\obj\x86\Debug\Vji.Sanity.dll
+V:\home\context\clowder\projects\CSharp\Vji.Sanity\obj\x86\Debug\Vji.Sanity.pdb

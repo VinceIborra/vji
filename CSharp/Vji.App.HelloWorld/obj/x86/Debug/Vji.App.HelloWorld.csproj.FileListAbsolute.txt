@@ -1,0 +1,5 @@
+V:\home\context\clowder\projects\CSharp\Vji.App.HelloWorld\bin\Debug\Vji.App.HelloWorld.exe
+V:\home\context\clowder\projects\CSharp\Vji.App.HelloWorld\bin\Debug\Vji.App.HelloWorld.pdb
+V:\home\context\clowder\projects\CSharp\Vji.App.HelloWorld\obj\x86\Debug\ResolveAssemblyReference.cache
+V:\home\context\clowder\projects\CSharp\Vji.App.HelloWorld\obj\x86\Debug\Vji.App.HelloWorld.exe
+V:\home\context\clowder\projects\CSharp\Vji.App.HelloWorld\obj\x86\Debug\Vji.App.HelloWorld.pdb

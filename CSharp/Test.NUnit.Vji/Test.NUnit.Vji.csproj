@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{C8309C5E-1FC4-4420-8153-99A1CD618CA7}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Test.NUnit.Vji</RootNamespace>
+    <AssemblyName>Test.NUnit.Vji</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="NUnit.Framework">
+      <HintPath>$(SharpDevelopBinPath)\Tools\NUnit\NUnit.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Spring.Core">
+      <HintPath>C:\Program Files\Spring.NET 1.3.2\bin\net\4.0\release\Spring.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bootstrap\AssemblyResolverImplTest.cs" />
+    <Compile Include="Bootstrap\CompositeBootstrapperImplTest.cs" />
+    <Compile Include="Bootstrap\LogBootstrapperImplTest.cs" />
+    <Compile Include="Configuration\ArgumentsProcessorImplTest.cs" />
+    <Compile Include="Configuration\ConfigurationFactoryImplTest.cs" />
+    <Compile Include="Configuration\OptionsProcessorImplTest.cs" />
+    <Compile Include="Configuration\ParametersProcessorImplTest.cs" />
+    <Compile Include="Extensions\System.Collections.Generic\DictionaryExtensionsTest.cs" />
+    <Compile Include="Extensions\System\StringExtensionsTest.cs" />
+    <Compile Include="Licensing\CompositeLicenseImplTest.cs" />
+    <Compile Include="Licensing\LicensedConditionImplTest.cs" />
+    <Compile Include="Licensing\LicenseImplTest.cs" />
+    <Compile Include="Licensing\LicensingFactoryImplTest.cs" />
+    <Compile Include="Log4net\Log4netFactoryImplTest.cs" />
+    <Compile Include="Log4net\LoggerSetterImplTest.cs" />
+    <Compile Include="Mock\Licensing\MockLicenseImplTest.cs" />
+    <Compile Include="Mock\Licensing\MockLicensingFactoryImplTest.cs" />
+    <Compile Include="Mvc\ControllerImplTest.cs" />
+    <Compile Include="Mvc\DriverImplTest.cs" />
+    <Compile Include="Mvc\FinishCommandImplTest.cs" />
+    <Compile Include="Mvc\PreAndPostCommandsInputDecoratorImplTest.cs" />
+    <Compile Include="Mvc\MvcFactoryImplTest.cs" />
+    <Compile Include="Mvc\SafeViewImplTest.cs" />
+    <Compile Include="Mvc\StartCommandImplTest.cs" />
+    <Compile Include="Mvc\TestCaseImpl.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Standard\CommandLineInputImplTest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Bootstrap" />
+    <Folder Include="Configuration" />
+    <Folder Include="Extensions" />
+    <Folder Include="Extensions\System" />
+    <Folder Include="Extensions\System.Collections.Generic" />
+    <Folder Include="Licensing" />
+    <Folder Include="Log4net" />
+    <Folder Include="Microsoft" />
+    <Folder Include="Microsoft\Excel" />
+    <Folder Include="Mock" />
+    <Folder Include="Mock\Licensing" />
+    <Folder Include="Mvc" />
+    <Folder Include="Standard" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Vji.Mock\Vji.Mock.csproj">
+      <Project>{96ABCF84-4DDD-4237-9EF1-6484B2A1C2F9}</Project>
+      <Name>Vji.Mock</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Vji.NUnit\Vji.NUnit.csproj">
+      <Project>{0A725E95-A62F-4A04-8FE2-8E38DED1DF71}</Project>
+      <Name>Vji.NUnit</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Vji.Std\Vji.Std.csproj">
+      <Project>{94ED5723-5898-4ADF-8FB9-E9DC68D93529}</Project>
+      <Name>Vji.Std</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Vji\Vji.csproj">
+      <Project>{2E41425A-D1A4-46E7-B8C4-CAFF5BE87E34}</Project>
+      <Name>Vji</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+</Project>

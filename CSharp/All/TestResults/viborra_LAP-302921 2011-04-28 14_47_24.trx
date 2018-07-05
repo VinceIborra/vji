@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b42e83c0-0053-4ce6-a23b-7df599da5416" name="viborra@LAP-302921 2011-04-28 14:47:24" runUser="SERVICES\viborra" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="e9983c80-7cac-4f17-99b1-51a5ee880c99">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="I:\home\context\clowder\projects\CSharp\All\TestResults\viborra_LAP-302921 2011-04-28 14_47_24">
+      <DeploymentItem filename="I:\home\context\clowder\projects\CSharp\Vji.Chess\bin\Debug\Vji.Chess.dll" />
+      <DeploymentItem filename="I:\home\context\clowder\projects\CSharp\Vji\bin\Debug\Vji.dll" />
+      <DeploymentItem filename="C:\Program Files\Spring.NET 1.3.0\bin\net\2.0\release\Spring.Core.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="5" executed="5" passed="1" error="0" failed="4" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2011-04-28T14:47:24.3051823+10:00" queuing="2011-04-28T14:47:25.3989323+10:00" start="2011-04-28T14:47:25.5708073+10:00" finish="2011-04-28T14:47:27.1958073+10:00" />
+  <TestDefinitions>
+    <UnitTest name="TestRenderStartPreamble" storage="i:\home\context\clowder\projects\csharp\vji.test.chess\bin\debug\testproject1.dll" id="7f898444-ae0c-6988-c9f2-09c1c6dd2445">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="7462bacc-8d72-428b-8833-8669ff1d6db7" />
+      <TestMethod codeBase="I:\home\context\clowder\projects\CSharp\Vji.Test.Chess\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Vji.Chess.Mvc.StartBoardViewImplTest, TestProject1" name="TestRenderStartPreamble" />
+    </UnitTest>
+    <UnitTest name="TestRenderPrompt" storage="i:\home\context\clowder\projects\csharp\vji.test.chess\bin\debug\testproject1.dll" id="785b381d-bb42-c2c3-2053-1c975b602b38">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="a834fb22-876a-4967-97c4-c67abbeb6045" />
+      <TestMethod codeBase="I:\home\context\clowder\projects\CSharp\Vji.Test.Chess\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Vji.Chess.Mvc.StartBoardViewImplTest, TestProject1" name="TestRenderPrompt" />
+    </UnitTest>
+    <UnitTest name="TestRenderBoard" storage="i:\home\context\clowder\projects\csharp\vji.test.chess\bin\debug\testproject1.dll" id="5e1340b1-3b05-ce9c-6570-d7f5b0e024bd">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="62fbe4c0-cb07-4563-b848-000e37a29881" />
+      <TestMethod codeBase="I:\home\context\clowder\projects\CSharp\Vji.Test.Chess\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Vji.Chess.Mvc.StartBoardViewImplTest, TestProject1" name="TestRenderBoard" />
+    </UnitTest>
+    <UnitTest name="TestRenderInternalError" storage="i:\home\context\clowder\projects\csharp\vji.test.chess\bin\debug\testproject1.dll" id="bcc9e5a6-60e7-bfc8-7eac-8815d020212d">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="d48d0aef-97d3-4d65-95ff-4bac801a1426" />
+      <TestMethod codeBase="I:\home\context\clowder\projects\CSharp\Vji.Test.Chess\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Vji.Chess.Mvc.StartBoardViewImplTest, TestProject1" name="TestRenderInternalError" />
+    </UnitTest>
+    <UnitTest name="TestRender" storage="i:\home\context\clowder\projects\csharp\vji.test.chess\bin\debug\testproject1.dll" id="97cd2fc1-97b8-94fd-311d-1216210c2924">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="084e640b-9be6-40b0-963e-8ce407657ab9" />
+      <TestMethod codeBase="I:\home\context\clowder\projects\CSharp\Vji.Test.Chess\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Vji.Chess.Mvc.StartBoardViewImplTest, TestProject1" name="TestRender" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="5e1340b1-3b05-ce9c-6570-d7f5b0e024bd" executionId="62fbe4c0-cb07-4563-b848-000e37a29881" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="785b381d-bb42-c2c3-2053-1c975b602b38" executionId="a834fb22-876a-4967-97c4-c67abbeb6045" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7f898444-ae0c-6988-c9f2-09c1c6dd2445" executionId="7462bacc-8d72-428b-8833-8669ff1d6db7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="97cd2fc1-97b8-94fd-311d-1216210c2924" executionId="084e640b-9be6-40b0-963e-8ce407657ab9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bcc9e5a6-60e7-bfc8-7eac-8815d020212d" executionId="d48d0aef-97d3-4d65-95ff-4bac801a1426" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="62fbe4c0-cb07-4563-b848-000e37a29881" testId="5e1340b1-3b05-ce9c-6570-d7f5b0e024bd" testName="TestRenderBoard" computerName="LAP-302921" duration="00:00:00.5237185" startTime="2011-04-28T14:47:25.6176823+10:00" endTime="2011-04-28T14:47:27.0083073+10:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <StdOut>2011-04-28 14:47:26,914 [Agent: adapter run thread for test 'TestRenderBoard' with id '62fbe4c0-cb07-4563-b848-000e37a29881'] DEBUG LogBootstrapperImpl [(null)] - Logging bootstrapped.
+2011-04-28 14:47:26,945 [Agent: adapter run thread for test 'TestRenderBoard' with id '62fbe4c0-cb07-4563-b848-000e37a29881'] DEBUG SpringBootstrapperImpl [(null)] - Bootstrapping Spring.NET...
+2011-04-28 14:47:26,945 [Agent: adapter run thread for test 'TestRenderBoard' with id '62fbe4c0-cb07-4563-b848-000e37a29881'] DEBUG SpringBootstrapperImpl [(null)] - Setting object loggers.
+2011-04-28 14:47:26,945 [Agent: adapter run thread for test 'TestRenderBoard' with id '62fbe4c0-cb07-4563-b848-000e37a29881'] DEBUG SpringBootstrapperImpl [(null)] - Bootstrapping Spring.NET - Done.
+2011-04-28 14:47:26,961 [Agent: adapter run thread for test 'TestRenderBoard' with id '62fbe4c0-cb07-4563-b848-000e37a29881'] DEBUG LogBootstrapperImpl [(null)] - Logging bootstrapped.
+2011-04-28 14:47:26,961 [Agent: adapter run thread for test 'TestRenderBoard' with id '62fbe4c0-cb07-4563-b848-000e37a29881'] DEBUG SpringBootstrapperImpl [(null)] - Bootstrapping Spring.NET...
+2011-04-28 14:47:26,961 [Agent: adapter run thread for test 'TestRenderBoard' with id '62fbe4c0-cb07-4563-b848-000e37a29881'] DEBUG SpringBootstrapperImpl [(null)] - Setting object loggers.
+2011-04-28 14:47:26,961 [Agent: adapter run thread for test 'TestRenderBoard' with id '62fbe4c0-cb07-4563-b848-000e37a29881'] DEBUG SpringBootstrapperImpl [(null)] - Bootstrapping Spring.NET - Done.
+2011-04-28 14:47:26,961 [Agent: adapter run thread for test 'TestRenderBoard' with id '62fbe4c0-cb07-4563-b848-000e37a29881'] DEBUG LogBootstrapperImpl [(null)] - Logging bootstrapped.</StdOut>
+        <DebugTrace>Unable to read configuration section common/logging.  Using no-op implemenation.
+Vji.Bootstrap.LogBootstrapperImpl: 2011-04-28 14:47:26,914 [Agent: adapter run thread for test 'TestRenderBoard' with id '62fbe4c0-cb07-4563-b848-000e37a29881'] DEBUG [(null)] - Logging bootstrapped.
+Vji.Bootstrap.SpringBootstrapperImpl: 2011-04-28 14:47:26,945 [Agent: adapter run thread for test 'TestRenderBoard' with id '62fbe4c0-cb07-4563-b848-000e37a29881'] DEBUG [(null)] - Bootstrapping Spring.NET...
+Vji.Bootstrap.SpringBootstrapperImpl: 2011-04-28 14:47:26,945 [Agent: adapter run thread for test 'TestRenderBoard' with id '62fbe4c0-cb07-4563-b848-000e37a29881'] DEBUG [(null)] - Setting object loggers.
+Vji.Bootstrap.SpringBootstrapperImpl: 2011-04-28 14:47:26,945 [Agent: adapter run thread for test 'TestRenderBoard' with id '62fbe4c0-cb07-4563-b848-000e37a29881'] DEBUG [(null)] - Bootstrapping Spring.NET - Done.
+Vji.Bootstrap.LogBootstrapperImpl: 2011-04-28 14:47:26,961 [Agent: adapter run thread for test 'TestRenderBoard' with id '62fbe4c0-cb07-4563-b848-000e37a29881'] DEBUG [(null)] - Logging bootstrapped.
+Vji.Bootstrap.SpringBootstrapperImpl: 2011-04-28 14:47:26,961 [Agent: adapter run thread for test 'TestRenderBoard' with id '62fbe4c0-cb07-4563-b848-000e37a29881'] DEBUG [(null)] - Bootstrapping Spring.NET...
+Vji.Bootstrap.SpringBootstrapperImpl: 2011-04-28 14:47:26,961 [Agent: adapter run thread for test 'TestRenderBoard' with id '62fbe4c0-cb07-4563-b848-000e37a29881'] DEBUG [(null)] - Setting object loggers.
+Vji.Bootstrap.SpringBootstrapperImpl: 2011-04-28 14:47:26,961 [Agent: adapter run thread for test 'TestRenderBoard' with id '62fbe4c0-cb07-4563-b848-000e37a29881'] DEBUG [(null)] - Bootstrapping Spring.NET - Done.
+Vji.Bootstrap.LogBootstrapperImpl: 2011-04-28 14:47:26,961 [Agent: adapter run thread for test 'TestRenderBoard' with id '62fbe4c0-cb07-4563-b848-000e37a29881'] DEBUG [(null)] - Logging bootstrapped.
+</DebugTrace>
+        <ErrorInfo>
+          <Message>Test method Vji.Chess.Mvc.StartBoardViewImplTest.TestRenderBoard threw exception:  System.Exception: Under construction.</Message>
+          <StackTrace>    at Vji.Chess.Mvc.StartBoardViewImpl.RenderBoard(Board board) in I:\home\context\clowder\projects\CSharp\Vji.Chess\Mvc\StartBoardViewImpl.cs:line 24
+   at Vji.Chess.Mvc.StartBoardViewImplTest.TestRenderBoard() in I:\home\context\clowder\projects\CSharp\Vji.Test.Chess\Mvc\StartBoardViewImplTest.cs:line 65
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a834fb22-876a-4967-97c4-c67abbeb6045" testId="785b381d-bb42-c2c3-2053-1c975b602b38" testName="TestRenderPrompt" computerName="LAP-302921" duration="00:00:00.0154041" startTime="2011-04-28T14:47:27.0239323+10:00" endTime="2011-04-28T14:47:27.0395573+10:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <StdOut>2011-04-28 14:47:27,023 [Agent: adapter run thread for test 'TestRenderPrompt' with id 'a834fb22-876a-4967-97c4-c67abbeb6045'] DEBUG SpringBootstrapperImpl [(null)] - Bootstrapping Spring.NET...
+2011-04-28 14:47:27,023 [Agent: adapter run thread for test 'TestRenderPrompt' with id 'a834fb22-876a-4967-97c4-c67abbeb6045'] DEBUG SpringBootstrapperImpl [(null)] - Setting object loggers.
+2011-04-28 14:47:27,023 [Agent: adapter run thread for test 'TestRenderPrompt' with id 'a834fb22-876a-4967-97c4-c67abbeb6045'] DEBUG SpringBootstrapperImpl [(null)] - Bootstrapping Spring.NET - Done.
+2011-04-28 14:47:27,023 [Agent: adapter run thread for test 'TestRenderPrompt' with id 'a834fb22-876a-4967-97c4-c67abbeb6045'] DEBUG LogBootstrapperImpl [(null)] - Logging bootstrapped.
+2011-04-28 14:47:27,023 [Agent: adapter run thread for test 'TestRenderPrompt' with id 'a834fb22-876a-4967-97c4-c67abbeb6045'] DEBUG SpringBootstrapperImpl [(null)] - Bootstrapping Spring.NET...
+2011-04-28 14:47:27,023 [Agent: adapter run thread for test 'TestRenderPrompt' with id 'a834fb22-876a-4967-97c4-c67abbeb6045'] DEBUG SpringBootstrapperImpl [(null)] - Setting object loggers.
+2011-04-28 14:47:27,023 [Agent: adapter run thread for test 'TestRenderPrompt' with id 'a834fb22-876a-4967-97c4-c67abbeb6045'] DEBUG SpringBootstrapperImpl [(null)] - Bootstrapping Spring.NET - Done.
+2011-04-28 14:47:27,023 [Agent: adapter run thread for test 'TestRenderPrompt' with id 'a834fb22-876a-4967-97c4-c67abbeb6045'] DEBUG LogBootstrapperImpl [(null)] - Logging bootstrapped.
+2011-04-28 14:47:27,023 [Agent: adapter run thread for test 'TestRenderPrompt' with id 'a834fb22-876a-4967-97c4-c67abbeb6045'] DEBUG SpringBootstrapperImpl [(null)] - Bootstrapping Spring.NET...
+2011-04-28 14:47:27,023 [Agent: adapter run thread for test 'TestRenderPrompt' with id 'a834fb22-876a-4967-97c4-c67abbeb6045'] DEBUG SpringBootstrapperImpl [(null)] - Setting object loggers.
+2011-04-28 14:47:27,023 [Agent: adapter run thread for test 'TestRenderPrompt' with id 'a834fb22-876a-4967-97c4-c67abbeb6045'] DEBUG SpringBootstrapperImpl [(null)] - Bootstrapping Spring.NET - Done.
+2011-04-28 14:47:27,023 [Agent: adapter run thread for test 'TestRenderPrompt' with id 'a834fb22-876a-4967-97c4-c67abbeb6045'] DEBUG LogBootstrapperImpl [(null)] - Logging bootstrapped.</StdOut>
+        <DebugTrace>Vji.Bootstrap.SpringBootstrapperImpl: 2011-04-28 14:47:27,023 [Agent: adapter run thread for test 'TestRenderPrompt' with id 'a834fb22-876a-4967-97c4-c67abbeb6045'] DEBUG [(null)] - Bootstrapping Spring.NET...
+Vji.Bootstrap.SpringBootstrapperImpl: 2011-04-28 14:47:27,023 [Agent: adapter run thread for test 'TestRenderPrompt' with id 'a834fb22-876a-4967-97c4-c67abbeb6045'] DEBUG [(null)] - Setting object loggers.
+Vji.Bootstrap.SpringBootstrapperImpl: 2011-04-28 14:47:27,023 [Agent: adapter run thread for test 'TestRenderPrompt' with id 'a834fb22-876a-4967-97c4-c67abbeb6045'] DEBUG [(null)] - Bootstrapping Spring.NET - Done.
+Vji.Bootstrap.LogBootstrapperImpl: 2011-04-28 14:47:27,023 [Agent: adapter run thread for test 'TestRenderPrompt' with id 'a834fb22-876a-4967-97c4-c67abbeb6045'] DEBUG [(null)] - Logging bootstrapped.
+Vji.Bootstrap.SpringBootstrapperImpl: 2011-04-28 14:47:27,023 [Agent: adapter run thread for test 'TestRenderPrompt' with id 'a834fb22-876a-4967-97c4-c67abbeb6045'] DEBUG [(null)] - Bootstrapping Spring.NET...
+Vji.Bootstrap.SpringBootstrapperImpl: 2011-04-28 14:47:27,023 [Agent: adapter run thread for test 'TestRenderPrompt' with id 'a834fb22-876a-4967-97c4-c67abbeb6045'] DEBUG [(null)] - Setting object loggers.
+Vji.Bootstrap.SpringBootstrapperImpl: 2011-04-28 14:47:27,023 [Agent: adapter run thread for test 'TestRenderPrompt' with id 'a834fb22-876a-4967-97c4-c67abbeb6045'] DEBUG [(null)] - Bootstrapping Spring.NET - Done.
+Vji.Bootstrap.LogBootstrapperImpl: 2011-04-28 14:47:27,023 [Agent: adapter run thread for test 'TestRenderPrompt' with id 'a834fb22-876a-4967-97c4-c67abbeb6045'] DEBUG [(null)] - Logging bootstrapped.
+Vji.Bootstrap.SpringBootstrapperImpl: 2011-04-28 14:47:27,023 [Agent: adapter run thread for test 'TestRenderPrompt' with id 'a834fb22-876a-4967-97c4-c67abbeb6045'] DEBUG [(null)] - Bootstrapping Spring.NET...
+Vji.Bootstrap.SpringBootstrapperImpl: 2011-04-28 14:47:27,023 [Agent: adapter run thread for test 'TestRenderPrompt' with id 'a834fb22-876a-4967-97c4-c67abbeb6045'] DEBUG [(null)] - Setting object loggers.
+Vji.Bootstrap.SpringBootstrapperImpl: 2011-04-28 14:47:27,023 [Agent: adapter run thread for test 'TestRenderPrompt' with id 'a834fb22-876a-4967-97c4-c67abbeb6045'] DEBUG [(null)] - Bootstrapping Spring.NET - Done.
+Vji.Bootstrap.LogBootstrapperImpl: 2011-04-28 14:47:27,023 [Agent: adapter run thread for test 'TestRenderPrompt' with id 'a834fb22-876a-4967-97c4-c67abbeb6045'] DEBUG [(null)] - Logging bootstrapped.
+</DebugTrace>
+        <ErrorInfo>
+          <Message>Test method Vji.Chess.Mvc.StartBoardViewImplTest.TestRenderPrompt threw exception:  System.Exception: Under construction.</Message>
+          <StackTrace>    at Vji.Chess.Mvc.StartBoardViewImpl.RenderPrompt() in I:\home\context\clowder\projects\CSharp\Vji.Chess\Mvc\StartBoardViewImpl.cs:line 28
+   at Vji.Chess.Mvc.StartBoardViewImplTest.TestRenderPrompt() in I:\home\context\clowder\projects\CSharp\Vji.Test.Chess\Mvc\StartBoardViewImplTest.cs:line 71
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7462bacc-8d72-428b-8833-8669ff1d6db7" testId="7f898444-ae0c-6988-c9f2-09c1c6dd2445" testName="TestRenderStartPreamble" computerName="LAP-302921" duration="00:00:00.0105683" startTime="2011-04-28T14:47:27.0395573+10:00" endTime="2011-04-28T14:47:27.0551823+10:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <StdOut>2011-04-28 14:47:27,055 [Agent: adapter run thread for test 'TestRenderStartPreamble' with id '7462bacc-8d72-428b-8833-8669ff1d6db7'] DEBUG SpringBootstrapperImpl [(null)] - Bootstrapping Spring.NET...
+2011-04-28 14:47:27,055 [Agent: adapter run thread for test 'TestRenderStartPreamble' with id '7462bacc-8d72-428b-8833-8669ff1d6db7'] DEBUG SpringBootstrapperImpl [(null)] - Setting object loggers.
+2011-04-28 14:47:27,055 [Agent: adapter run thread for test 'TestRenderStartPreamble' with id '7462bacc-8d72-428b-8833-8669ff1d6db7'] DEBUG SpringBootstrapperImpl [(null)] - Bootstrapping Spring.NET - Done.
+2011-04-28 14:47:27,055 [Agent: adapter run thread for test 'TestRenderStartPreamble' with id '7462bacc-8d72-428b-8833-8669ff1d6db7'] DEBUG LogBootstrapperImpl [(null)] - Logging bootstrapped.
+2011-04-28 14:47:27,055 [Agent: adapter run thread for test 'TestRenderStartPreamble' with id '7462bacc-8d72-428b-8833-8669ff1d6db7'] DEBUG SpringBootstrapperImpl [(null)] - Bootstrapping Spring.NET...
+2011-04-28 14:47:27,055 [Agent: adapter run thread for test 'TestRenderStartPreamble' with id '7462bacc-8d72-428b-8833-8669ff1d6db7'] DEBUG SpringBootstrapperImpl [(null)] - Setting object loggers.
+2011-04-28 14:47:27,055 [Agent: adapter run thread for test 'TestRenderStartPreamble' with id '7462bacc-8d72-428b-8833-8669ff1d6db7'] DEBUG SpringBootstrapperImpl [(null)] - Bootstrapping Spring.NET - Done.
+2011-04-28 14:47:27,055 [Agent: adapter run thread for test 'TestRenderStartPreamble' with id '7462bacc-8d72-428b-8833-8669ff1d6db7'] DEBUG LogBootstrapperImpl [(null)] - Logging bootstrapped.
+2011-04-28 14:47:27,055 [Agent: adapter run thread for test 'TestRenderStartPreamble' with id '7462bacc-8d72-428b-8833-8669ff1d6db7'] DEBUG SpringBootstrapperImpl [(null)] - Bootstrapping Spring.NET...
+2011-04-28 14:47:27,055 [Agent: adapter run thread for test 'TestRenderStartPreamble' with id '7462bacc-8d72-428b-8833-8669ff1d6db7'] DEBUG SpringBootstrapperImpl [(null)] - Setting object loggers.
+2011-04-28 14:47:27,055 [Agent: adapter run thread for test 'TestRenderStartPreamble' with id '7462bacc-8d72-428b-8833-8669ff1d6db7'] DEBUG SpringBootstrapperImpl [(null)] - Bootstrapping Spring.NET - Done.
+2011-04-28 14:47:27,055 [Agent: adapter run thread for test 'TestRenderStartPreamble' with id '7462bacc-8d72-428b-8833-8669ff1d6db7'] DEBUG LogBootstrapperImpl [(null)] - Logging bootstrapped.</StdOut>
+        <DebugTrace>Vji.Bootstrap.SpringBootstrapperImpl: 2011-04-28 14:47:27,055 [Agent: adapter run thread for test 'TestRenderStartPreamble' with id '7462bacc-8d72-428b-8833-8669ff1d6db7'] DEBUG [(null)] - Bootstrapping Spring.NET...
+Vji.Bootstrap.SpringBootstrapperImpl: 2011-04-28 14:47:27,055 [Agent: adapter run thread for test 'TestRenderStartPreamble' with id '7462bacc-8d72-428b-8833-8669ff1d6db7'] DEBUG [(null)] - Setting object loggers.
+Vji.Bootstrap.SpringBootstrapperImpl: 2011-04-28 14:47:27,055 [Agent: adapter run thread for test 'TestRenderStartPreamble' with id '7462bacc-8d72-428b-8833-8669ff1d6db7'] DEBUG [(null)] - Bootstrapping Spring.NET - Done.
+Vji.Bootstrap.LogBootstrapperImpl: 2011-04-28 14:47:27,055 [Agent: adapter run thread for test 'TestRenderStartPreamble' with id '7462bacc-8d72-428b-8833-8669ff1d6db7'] DEBUG [(null)] - Logging bootstrapped.
+Vji.Bootstrap.SpringBootstrapperImpl: 2011-04-28 14:47:27,055 [Agent: adapter run thread for test 'TestRenderStartPreamble' with id '7462bacc-8d72-428b-8833-8669ff1d6db7'] DEBUG [(null)] - Bootstrapping Spring.NET...
+Vji.Bootstrap.SpringBootstrapperImpl: 2011-04-28 14:47:27,055 [Agent: adapter run thread for test 'TestRenderStartPreamble' with id '7462bacc-8d72-428b-8833-8669ff1d6db7'] DEBUG [(null)] - Setting object loggers.
+Vji.Bootstrap.SpringBootstrapperImpl: 2011-04-28 14:47:27,055 [Agent: adapter run thread for test 'TestRenderStartPreamble' with id '7462bacc-8d72-428b-8833-8669ff1d6db7'] DEBUG [(null)] - Bootstrapping Spring.NET - Done.
+Vji.Bootstrap.LogBootstrapperImpl: 2011-04-28 14:47:27,055 [Agent: adapter run thread for test 'TestRenderStartPreamble' with id '7462bacc-8d72-428b-8833-8669ff1d6db7'] DEBUG [(null)] - Logging bootstrapped.
+Vji.Bootstrap.SpringBootstrapperImpl: 2011-04-28 14:47:27,055 [Agent: adapter run thread for test 'TestRenderStartPreamble' with id '7462bacc-8d72-428b-8833-8669ff1d6db7'] DEBUG [(null)] - Bootstrapping Spring.NET...
+Vji.Bootstrap.SpringBootstrapperImpl: 2011-04-28 14:47:27,055 [Agent: adapter run thread for test 'TestRenderStartPreamble' with id '7462bacc-8d72-428b-8833-8669ff1d6db7'] DEBUG [(null)] - Setting object loggers.
+Vji.Bootstrap.SpringBootstrapperImpl: 2011-04-28 14:47:27,055 [Agent: adapter run thread for test 'TestRenderStartPreamble' with id '7462bacc-8d72-428b-8833-8669ff1d6db7'] DEBUG [(null)] - Bootstrapping Spring.NET - Done.
+Vji.Bootstrap.LogBootstrapperImpl: 2011-04-28 14:47:27,055 [Agent: adapter run thread for test 'TestRenderStartPreamble' with id '7462bacc-8d72-428b-8833-8669ff1d6db7'] DEBUG [(null)] - Logging bootstrapped.
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="084e640b-9be6-40b0-963e-8ce407657ab9" testId="97cd2fc1-97b8-94fd-311d-1216210c2924" testName="TestRender" computerName="LAP-302921" duration="00:00:00.0155002" startTime="2011-04-28T14:47:27.0708073+10:00" endTime="2011-04-28T14:47:27.0864323+10:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <StdOut>2011-04-28 14:47:27,070 [Agent: adapter run thread for test 'TestRender' with id '084e640b-9be6-40b0-963e-8ce407657ab9'] DEBUG SpringBootstrapperImpl [(null)] - Bootstrapping Spring.NET...
+2011-04-28 14:47:27,070 [Agent: adapter run thread for test 'TestRender' with id '084e640b-9be6-40b0-963e-8ce407657ab9'] DEBUG SpringBootstrapperImpl [(null)] - Setting object loggers.
+2011-04-28 14:47:27,070 [Agent: adapter run thread for test 'TestRender' with id '084e640b-9be6-40b0-963e-8ce407657ab9'] DEBUG SpringBootstrapperImpl [(null)] - Bootstrapping Spring.NET - Done.
+2011-04-28 14:47:27,070 [Agent: adapter run thread for test 'TestRender' with id '084e640b-9be6-40b0-963e-8ce407657ab9'] DEBUG LogBootstrapperImpl [(null)] - Logging bootstrapped.
+2011-04-28 14:47:27,070 [Agent: adapter run thread for test 'TestRender' with id '084e640b-9be6-40b0-963e-8ce407657ab9'] DEBUG SpringBootstrapperImpl [(null)] - Bootstrapping Spring.NET...
+2011-04-28 14:47:27,070 [Agent: adapter run thread for test 'TestRender' with id '084e640b-9be6-40b0-963e-8ce407657ab9'] DEBUG SpringBootstrapperImpl [(null)] - Setting object loggers.
+2011-04-28 14:47:27,070 [Agent: adapter run thread for test 'TestRender' with id '084e640b-9be6-40b0-963e-8ce407657ab9'] DEBUG SpringBootstrapperImpl [(null)] - Bootstrapping Spring.NET - Done.
+2011-04-28 14:47:27,070 [Agent: adapter run thread for test 'TestRender' with id '084e640b-9be6-40b0-963e-8ce407657ab9'] DEBUG LogBootstrapperImpl [(null)] - Logging bootstrapped.
+2011-04-28 14:47:27,070 [Agent: adapter run thread for test 'TestRender' with id '084e640b-9be6-40b0-963e-8ce407657ab9'] DEBUG SpringBootstrapperImpl [(null)] - Bootstrapping Spring.NET...
+2011-04-28 14:47:27,070 [Agent: adapter run thread for test 'TestRender' with id '084e640b-9be6-40b0-963e-8ce407657ab9'] DEBUG SpringBootstrapperImpl [(null)] - Setting object loggers.
+2011-04-28 14:47:27,070 [Agent: adapter run thread for test 'TestRender' with id '084e640b-9be6-40b0-963e-8ce407657ab9'] DEBUG SpringBootstrapperImpl [(null)] - Bootstrapping Spring.NET - Done.
+2011-04-28 14:47:27,070 [Agent: adapter run thread for test 'TestRender' with id '084e640b-9be6-40b0-963e-8ce407657ab9'] DEBUG LogBootstrapperImpl [(null)] - Logging bootstrapped.</StdOut>
+        <DebugTrace>Vji.Bootstrap.SpringBootstrapperImpl: 2011-04-28 14:47:27,070 [Agent: adapter run thread for test 'TestRender' with id '084e640b-9be6-40b0-963e-8ce407657ab9'] DEBUG [(null)] - Bootstrapping Spring.NET...
+Vji.Bootstrap.SpringBootstrapperImpl: 2011-04-28 14:47:27,070 [Agent: adapter run thread for test 'TestRender' with id '084e640b-9be6-40b0-963e-8ce407657ab9'] DEBUG [(null)] - Setting object loggers.
+Vji.Bootstrap.SpringBootstrapperImpl: 2011-04-28 14:47:27,070 [Agent: adapter run thread for test 'TestRender' with id '084e640b-9be6-40b0-963e-8ce407657ab9'] DEBUG [(null)] - Bootstrapping Spring.NET - Done.
+Vji.Bootstrap.LogBootstrapperImpl: 2011-04-28 14:47:27,070 [Agent: adapter run thread for test 'TestRender' with id '084e640b-9be6-40b0-963e-8ce407657ab9'] DEBUG [(null)] - Logging bootstrapped.
+Vji.Bootstrap.SpringBootstrapperImpl: 2011-04-28 14:47:27,070 [Agent: adapter run thread for test 'TestRender' with id '084e640b-9be6-40b0-963e-8ce407657ab9'] DEBUG [(null)] - Bootstrapping Spring.NET...
+Vji.Bootstrap.SpringBootstrapperImpl: 2011-04-28 14:47:27,070 [Agent: adapter run thread for test 'TestRender' with id '084e640b-9be6-40b0-963e-8ce407657ab9'] DEBUG [(null)] - Setting object loggers.
+Vji.Bootstrap.SpringBootstrapperImpl: 2011-04-28 14:47:27,070 [Agent: adapter run thread for test 'TestRender' with id '084e640b-9be6-40b0-963e-8ce407657ab9'] DEBUG [(null)] - Bootstrapping Spring.NET - Done.
+Vji.Bootstrap.LogBootstrapperImpl: 2011-04-28 14:47:27,070 [Agent: adapter run thread for test 'TestRender' with id '084e640b-9be6-40b0-963e-8ce407657ab9'] DEBUG [(null)] - Logging bootstrapped.
+Vji.Bootstrap.SpringBootstrapperImpl: 2011-04-28 14:47:27,070 [Agent: adapter run thread for test 'TestRender' with id '084e640b-9be6-40b0-963e-8ce407657ab9'] DEBUG [(null)] - Bootstrapping Spring.NET...
+Vji.Bootstrap.SpringBootstrapperImpl: 2011-04-28 14:47:27,070 [Agent: adapter run thread for test 'TestRender' with id '084e640b-9be6-40b0-963e-8ce407657ab9'] DEBUG [(null)] - Setting object loggers.
+Vji.Bootstrap.SpringBootstrapperImpl: 2011-04-28 14:47:27,070 [Agent: adapter run thread for test 'TestRender' with id '084e640b-9be6-40b0-963e-8ce407657ab9'] DEBUG [(null)] - Bootstrapping Spring.NET - Done.
+Vji.Bootstrap.LogBootstrapperImpl: 2011-04-28 14:47:27,070 [Agent: adapter run thread for test 'TestRender' with id '084e640b-9be6-40b0-963e-8ce407657ab9'] DEBUG [(null)] - Logging bootstrapped.
+</DebugTrace>
+        <ErrorInfo>
+          <Message>Test method Vji.Chess.Mvc.StartBoardViewImplTest.TestRender threw exception:  System.Exception: Under construction.</Message>
+          <StackTrace>    at Vji.Chess.Mvc.StartBoardViewImpl.RenderBoard(Board board) in I:\home\context\clowder\projects\CSharp\Vji.Chess\Mvc\StartBoardViewImpl.cs:line 24
+   at Vji.Chess.Mvc.StartBoardViewImpl.Render(IDictionary`2 model) in I:\home\context\clowder\projects\CSharp\Vji.Chess\Mvc\StartBoardViewImpl.cs:line 41
+   at Vji.Chess.Mvc.StartBoardViewImplTest.TestRender() in I:\home\context\clowder\projects\CSharp\Vji.Test.Chess\Mvc\StartBoardViewImplTest.cs:line 77
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d48d0aef-97d3-4d65-95ff-4bac801a1426" testId="bcc9e5a6-60e7-bfc8-7eac-8815d020212d" testName="TestRenderInternalError" computerName="LAP-302921" duration="00:00:00.0225760" startTime="2011-04-28T14:47:27.0864323+10:00" endTime="2011-04-28T14:47:27.1176823+10:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <StdOut>2011-04-28 14:47:27,102 [Agent: adapter run thread for test 'TestRenderInternalError' with id 'd48d0aef-97d3-4d65-95ff-4bac801a1426'] DEBUG SpringBootstrapperImpl [(null)] - Bootstrapping Spring.NET...
+2011-04-28 14:47:27,102 [Agent: adapter run thread for test 'TestRenderInternalError' with id 'd48d0aef-97d3-4d65-95ff-4bac801a1426'] DEBUG SpringBootstrapperImpl [(null)] - Setting object loggers.
+2011-04-28 14:47:27,102 [Agent: adapter run thread for test 'TestRenderInternalError' with id 'd48d0aef-97d3-4d65-95ff-4bac801a1426'] DEBUG SpringBootstrapperImpl [(null)] - Bootstrapping Spring.NET - Done.
+2011-04-28 14:47:27,102 [Agent: adapter run thread for test 'TestRenderInternalError' with id 'd48d0aef-97d3-4d65-95ff-4bac801a1426'] DEBUG LogBootstrapperImpl [(null)] - Logging bootstrapped.
+2011-04-28 14:47:27,102 [Agent: adapter run thread for test 'TestRenderInternalError' with id 'd48d0aef-97d3-4d65-95ff-4bac801a1426'] DEBUG SpringBootstrapperImpl [(null)] - Bootstrapping Spring.NET...
+2011-04-28 14:47:27,102 [Agent: adapter run thread for test 'TestRenderInternalError' with id 'd48d0aef-97d3-4d65-95ff-4bac801a1426'] DEBUG SpringBootstrapperImpl [(null)] - Setting object loggers.
+2011-04-28 14:47:27,102 [Agent: adapter run thread for test 'TestRenderInternalError' with id 'd48d0aef-97d3-4d65-95ff-4bac801a1426'] DEBUG SpringBootstrapperImpl [(null)] - Bootstrapping Spring.NET - Done.
+2011-04-28 14:47:27,102 [Agent: adapter run thread for test 'TestRenderInternalError' with id 'd48d0aef-97d3-4d65-95ff-4bac801a1426'] DEBUG LogBootstrapperImpl [(null)] - Logging bootstrapped.
+2011-04-28 14:47:27,102 [Agent: adapter run thread for test 'TestRenderInternalError' with id 'd48d0aef-97d3-4d65-95ff-4bac801a1426'] DEBUG SpringBootstrapperImpl [(null)] - Bootstrapping Spring.NET...
+2011-04-28 14:47:27,102 [Agent: adapter run thread for test 'TestRenderInternalError' with id 'd48d0aef-97d3-4d65-95ff-4bac801a1426'] DEBUG SpringBootstrapperImpl [(null)] - Setting object loggers.
+2011-04-28 14:47:27,102 [Agent: adapter run thread for test 'TestRenderInternalError' with id 'd48d0aef-97d3-4d65-95ff-4bac801a1426'] DEBUG SpringBootstrapperImpl [(null)] - Bootstrapping Spring.NET - Done.
+2011-04-28 14:47:27,102 [Agent: adapter run thread for test 'TestRenderInternalError' with id 'd48d0aef-97d3-4d65-95ff-4bac801a1426'] DEBUG LogBootstrapperImpl [(null)] - Logging bootstrapped.</StdOut>
+        <DebugTrace>Vji.Bootstrap.SpringBootstrapperImpl: 2011-04-28 14:47:27,102 [Agent: adapter run thread for test 'TestRenderInternalError' with id 'd48d0aef-97d3-4d65-95ff-4bac801a1426'] DEBUG [(null)] - Bootstrapping Spring.NET...
+Vji.Bootstrap.SpringBootstrapperImpl: 2011-04-28 14:47:27,102 [Agent: adapter run thread for test 'TestRenderInternalError' with id 'd48d0aef-97d3-4d65-95ff-4bac801a1426'] DEBUG [(null)] - Setting object loggers.
+Vji.Bootstrap.SpringBootstrapperImpl: 2011-04-28 14:47:27,102 [Agent: adapter run thread for test 'TestRenderInternalError' with id 'd48d0aef-97d3-4d65-95ff-4bac801a1426'] DEBUG [(null)] - Bootstrapping Spring.NET - Done.
+Vji.Bootstrap.LogBootstrapperImpl: 2011-04-28 14:47:27,102 [Agent: adapter run thread for test 'TestRenderInternalError' with id 'd48d0aef-97d3-4d65-95ff-4bac801a1426'] DEBUG [(null)] - Logging bootstrapped.
+Vji.Bootstrap.SpringBootstrapperImpl: 2011-04-28 14:47:27,102 [Agent: adapter run thread for test 'TestRenderInternalError' with id 'd48d0aef-97d3-4d65-95ff-4bac801a1426'] DEBUG [(null)] - Bootstrapping Spring.NET...
+Vji.Bootstrap.SpringBootstrapperImpl: 2011-04-28 14:47:27,102 [Agent: adapter run thread for test 'TestRenderInternalError' with id 'd48d0aef-97d3-4d65-95ff-4bac801a1426'] DEBUG [(null)] - Setting object loggers.
+Vji.Bootstrap.SpringBootstrapperImpl: 2011-04-28 14:47:27,102 [Agent: adapter run thread for test 'TestRenderInternalError' with id 'd48d0aef-97d3-4d65-95ff-4bac801a1426'] DEBUG [(null)] - Bootstrapping Spring.NET - Done.
+Vji.Bootstrap.LogBootstrapperImpl: 2011-04-28 14:47:27,102 [Agent: adapter run thread for test 'TestRenderInternalError' with id 'd48d0aef-97d3-4d65-95ff-4bac801a1426'] DEBUG [(null)] - Logging bootstrapped.
+Vji.Bootstrap.SpringBootstrapperImpl: 2011-04-28 14:47:27,102 [Agent: adapter run thread for test 'TestRenderInternalError' with id 'd48d0aef-97d3-4d65-95ff-4bac801a1426'] DEBUG [(null)] - Bootstrapping Spring.NET...
+Vji.Bootstrap.SpringBootstrapperImpl: 2011-04-28 14:47:27,102 [Agent: adapter run thread for test 'TestRenderInternalError' with id 'd48d0aef-97d3-4d65-95ff-4bac801a1426'] DEBUG [(null)] - Setting object loggers.
+Vji.Bootstrap.SpringBootstrapperImpl: 2011-04-28 14:47:27,102 [Agent: adapter run thread for test 'TestRenderInternalError' with id 'd48d0aef-97d3-4d65-95ff-4bac801a1426'] DEBUG [(null)] - Bootstrapping Spring.NET - Done.
+Vji.Bootstrap.LogBootstrapperImpl: 2011-04-28 14:47:27,102 [Agent: adapter run thread for test 'TestRenderInternalError' with id 'd48d0aef-97d3-4d65-95ff-4bac801a1426'] DEBUG [(null)] - Logging bootstrapped.
+</DebugTrace>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;Internal Error: {"bob" =&gt; "robert", "mike" =&gt; "michael"}&gt;. Actual:&lt;Internal Error: System.Collections.Generic.Dictionary`2[System.String,System.Object]&gt;. </Message>
+          <StackTrace>   at Vji.Chess.Mvc.StartBoardViewImplTest.TestRenderInternalError() in I:\home\context\clowder\projects\CSharp\Vji.Test.Chess\Mvc\StartBoardViewImplTest.cs:line 48
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

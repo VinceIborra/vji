@@ -1,0 +1,13 @@
+V:\home\context\clowder\projects\CSharp\Vji.Spring\bin\Debug\Vji.Spring.dll
+V:\home\context\clowder\projects\CSharp\Vji.Spring\bin\Debug\Vji.Spring.pdb
+V:\home\context\clowder\projects\CSharp\Vji.Spring\bin\Debug\log4net.dll
+V:\home\context\clowder\projects\CSharp\Vji.Spring\bin\Debug\Spring.Core.dll
+V:\home\context\clowder\projects\CSharp\Vji.Spring\bin\Debug\Vji.dll
+V:\home\context\clowder\projects\CSharp\Vji.Spring\bin\Debug\Common.Logging.dll
+V:\home\context\clowder\projects\CSharp\Vji.Spring\bin\Debug\Vji.pdb
+V:\home\context\clowder\projects\CSharp\Vji.Spring\bin\Debug\log4net.xml
+V:\home\context\clowder\projects\CSharp\Vji.Spring\bin\Debug\Spring.Core.pdb
+V:\home\context\clowder\projects\CSharp\Vji.Spring\bin\Debug\Spring.Core.xml
+V:\home\context\clowder\projects\CSharp\Vji.Spring\obj\x86\Debug\ResolveAssemblyReference.cache
+V:\home\context\clowder\projects\CSharp\Vji.Spring\obj\x86\Debug\Vji.Spring.dll
+V:\home\context\clowder\projects\CSharp\Vji.Spring\obj\x86\Debug\Vji.Spring.pdb

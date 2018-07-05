@@ -1,0 +1,15 @@
+V:\home\context\clowder\projects\CSharp\Vji.Std\bin\Debug\Vji.Std.dll
+V:\home\context\clowder\projects\CSharp\Vji.Std\bin\Debug\Vji.Std.pdb
+V:\home\context\clowder\projects\CSharp\Vji.Std\bin\Debug\Spring.Core.dll
+V:\home\context\clowder\projects\CSharp\Vji.Std\bin\Debug\Vji.dll
+V:\home\context\clowder\projects\CSharp\Vji.Std\bin\Debug\Vji.Spring.dll
+V:\home\context\clowder\projects\CSharp\Vji.Std\bin\Debug\log4net.dll
+V:\home\context\clowder\projects\CSharp\Vji.Std\bin\Debug\Common.Logging.dll
+V:\home\context\clowder\projects\CSharp\Vji.Std\bin\Debug\Vji.Spring.pdb
+V:\home\context\clowder\projects\CSharp\Vji.Std\bin\Debug\Vji.pdb
+V:\home\context\clowder\projects\CSharp\Vji.Std\bin\Debug\Spring.Core.pdb
+V:\home\context\clowder\projects\CSharp\Vji.Std\bin\Debug\Spring.Core.xml
+V:\home\context\clowder\projects\CSharp\Vji.Std\bin\Debug\log4net.xml
+V:\home\context\clowder\projects\CSharp\Vji.Std\obj\x86\Debug\ResolveAssemblyReference.cache
+V:\home\context\clowder\projects\CSharp\Vji.Std\obj\x86\Debug\Vji.Std.dll
+V:\home\context\clowder\projects\CSharp\Vji.Std\obj\x86\Debug\Vji.Std.pdb

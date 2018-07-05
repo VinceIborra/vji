@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.1.0.8000
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vji", "Vji.csproj", "{2E41425A-D1A4-46E7-B8C4-CAFF5BE87E34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vji.Test", "..\Vji.Test\Vji.Test.csproj", "{69F378F0-11FB-4972-8FD9-8565A8A32149}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E41425A-D1A4-46E7-B8C4-CAFF5BE87E34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E41425A-D1A4-46E7-B8C4-CAFF5BE87E34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E41425A-D1A4-46E7-B8C4-CAFF5BE87E34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E41425A-D1A4-46E7-B8C4-CAFF5BE87E34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69F378F0-11FB-4972-8FD9-8565A8A32149}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69F378F0-11FB-4972-8FD9-8565A8A32149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69F378F0-11FB-4972-8FD9-8565A8A32149}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69F378F0-11FB-4972-8FD9-8565A8A32149}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

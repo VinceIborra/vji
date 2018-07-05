@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7a897f72-60b2-4ccb-9d87-03763f42c86b" name="viborra@LAP-302921 2011-04-28 14:01:08" runUser="SERVICES\viborra" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="e9983c80-7cac-4f17-99b1-51a5ee880c99">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="I:\home\context\clowder\projects\CSharp\All\TestResults\viborra_LAP-302921 2011-04-28 14_01_08">
+      <DeploymentItem filename="I:\home\context\clowder\projects\CSharp\Vji.App.CommandLineChess\bin\Debug\Vji.App.CommandLineChess.exe" />
+      <DeploymentItem filename="I:\home\context\clowder\projects\CSharp\Vji.Chess\bin\Debug\Vji.Chess.dll" />
+      <DeploymentItem filename="I:\home\context\clowder\projects\CSharp\Vji\bin\Debug\Vji.dll" />
+      <DeploymentItem filename="I:\home\context\clowder\projects\CSharp\Vji.Mock\bin\Debug\Vji.Mock.dll" />
+      <DeploymentItem filename="C:\Program Files\Spring.NET 1.3.0\bin\net\2.0\release\Spring.Core.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2011-04-28T14:01:08.1611335+10:00" queuing="2011-04-28T14:01:09.2080554+10:00" start="2011-04-28T14:01:09.3799381+10:00" finish="2011-04-28T14:01:10.4112343+10:00" />
+  <TestDefinitions>
+    <UnitTest name="TestToText" storage="i:\home\context\clowder\projects\csharp\vji.test\bin\debug\vji.test.dll" id="1d738642-88d9-f1ff-5d06-fe31beeee2a7">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="948ed600-b307-4498-a9f1-ba68414de7bc" />
+      <TestMethod codeBase="I:\home\context\clowder\projects\CSharp\Vji.Test\bin\Debug\Vji.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="System.StringExtensionsTest, Vji.Test" name="TestToText" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1d738642-88d9-f1ff-5d06-fe31beeee2a7" executionId="948ed600-b307-4498-a9f1-ba68414de7bc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="948ed600-b307-4498-a9f1-ba68414de7bc" testId="1d738642-88d9-f1ff-5d06-fe31beeee2a7" testName="TestToText" computerName="LAP-302921" duration="00:00:00.0339839" startTime="2011-04-28T14:01:09.4424409+10:00" endTime="2011-04-28T14:01:10.3487315+10:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsInstanceOfType failed. Expected type:&lt;Vji.Standard.Debug.Textable&gt;. Actual type:&lt;System.String&gt;.</Message>
+          <StackTrace>   at System.StringExtensionsTest.TestToText() in I:\home\context\clowder\projects\CSharp\Vji.Test\Extensions\System\StringExtensionsTest.cs:line 17
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2E41425A-D1A4-46E7-B8C4-CAFF5BE87E34}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Vji</RootNamespace>
+    <AssemblyName>Vji</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>C:\home\opt\log4net-1.2.10\bin\net\2.0\release\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bootstrap\AssemblyResolver.cs" />
+    <Compile Include="Bootstrap\AssemblyResolverImpl.cs" />
+    <Compile Include="Bootstrap\Bootstrapper.cs" />
+    <Compile Include="Bootstrap\CompositeBoostrapper.cs" />
+    <Compile Include="Bootstrap\CompositeBootstrapperImpl.cs" />
+    <Compile Include="Bootstrap\LogBootstrapper.cs" />
+    <Compile Include="Bootstrap\LogBootstrapperImpl.cs" />
+    <Compile Include="Bootstrap\Runner.cs" />
+    <Compile Include="Conditions\CompositeCondition.cs" />
+    <Compile Include="Conditions\CompositeConditionClass.cs" />
+    <Compile Include="Com\ComWrapper.cs" />
+    <Compile Include="Com\ComWrapperClass.cs" />
+    <Compile Include="Conditions\Condition.cs" />
+    <Compile Include="Conditions\ConditionClass.cs" />
+    <Compile Include="Configuration\ArgumentConfiguration.cs" />
+    <Compile Include="Configuration\ArgumentConfigurationImpl.cs" />
+    <Compile Include="Configuration\ArgumentsProcessor.cs" />
+    <Compile Include="Configuration\ArgumentsProcessorImpl.cs" />
+    <Compile Include="Configuration\ConfigSource.cs" />
+    <Compile Include="Configuration\CompositeCfgImpl.cs" />
+    <Compile Include="Configuration\ConfigStore.cs" />
+    <Compile Include="Configuration\ConfigurationFactory.cs" />
+    <Compile Include="Configuration\ConfigurationFactoryImpl.cs" />
+    <Compile Include="Configuration\ContextProcessorImpl.cs" />
+    <Compile Include="Configuration\Config.cs" />
+    <Compile Include="Configuration\DictionaryConfigStoreImpl.cs" />
+    <Compile Include="Configuration\OptionConfiguration.cs" />
+    <Compile Include="Configuration\OptionConfigurationImpl.cs" />
+    <Compile Include="Configuration\OptionsProcessor.cs" />
+    <Compile Include="Configuration\OptionsProcessorImpl.cs" />
+    <Compile Include="Configuration\ParametersProcessor.cs" />
+    <Compile Include="Configuration\ParametersProcessorImpl.cs" />
+    <Compile Include="Configuration\UsageException.cs" />
+    <Compile Include="Configuration\UsageGenerator.cs" />
+    <Compile Include="Configuration\UsageGeneratorImpl.cs" />
+    <Compile Include="Exceptions\InternalErrorException.cs" />
+    <Compile Include="Extensions\System\StringExtensions.cs" />
+    <Compile Include="Extensions\System.Collections.Generic\DictionaryExtensions.cs" />
+    <Compile Include="Licensing\CompositeLicenseImpl.cs" />
+    <Compile Include="Licensing\License.cs" />
+    <Compile Include="Licensing\LicenseImpl.cs" />
+    <Compile Include="Licensing\LicensedConditionImpl.cs" />
+    <Compile Include="Licensing\LicensingFactory.cs" />
+    <Compile Include="Licensing\LicensingFactoryImpl.cs" />
+    <Compile Include="Log4net\BootstrapDependentLoggerSetterImpl.cs" />
+    <Compile Include="Log4net\Log4netFactoryImpl.cs" />
+    <Compile Include="Log4net\LoggerRecipient.cs" />
+    <Compile Include="Log4net\LoggerSetter.cs" />
+    <Compile Include="Log4net\Log4netFactory.cs" />
+    <Compile Include="Log4net\LoggerSetterImpl.cs" />
+    <Compile Include="Microsoft\Excel\Cell.cs" />
+    <Compile Include="Microsoft\Excel\CellImpl.cs" />
+    <Compile Include="Microsoft\Excel\Excel.cs" />
+    <Compile Include="Microsoft\Excel\ExcelFileOpenedConditionImpl.cs" />
+    <Compile Include="Microsoft\Excel\ExcelImpl.cs" />
+    <Compile Include="Microsoft\Excel\Range.cs" />
+    <Compile Include="Microsoft\Excel\RangeImpl.cs" />
+    <Compile Include="Mvc\Command.cs" />
+    <Compile Include="Mvc\Controller.cs" />
+    <Compile Include="Mvc\ControllerImpl.cs" />
+    <Compile Include="Mvc\Driver.cs" />
+    <Compile Include="Mvc\DriverImpl.cs" />
+    <Compile Include="Mvc\DriverState.cs" />
+    <Compile Include="Mvc\FinishCommand.cs" />
+    <Compile Include="Mvc\FinishCommandImpl.cs" />
+    <Compile Include="Mvc\Input.cs" />
+    <Compile Include="Mvc\PreAndPostCommandsInputDecoratorImpl.cs" />
+    <Compile Include="Mvc\ModelAndView.cs" />
+    <Compile Include="Mvc\ModelAndViewImpl.cs" />
+    <Compile Include="Mvc\Factory.cs" />
+    <Compile Include="Mvc\FactoryImpl.cs" />
+    <Compile Include="Mvc\Output.cs" />
+    <Compile Include="Mvc\Parser.cs" />
+    <Compile Include="Mvc\SafeViewImpl.cs" />
+    <Compile Include="Mvc\StartCommand.cs" />
+    <Compile Include="Mvc\StartCommandImpl.cs" />
+    <Compile Include="Mvc\UnknownCommand.cs" />
+    <Compile Include="Mvc\UnknownCommandImpl.cs" />
+    <Compile Include="Mvc\View.cs" />
+    <Compile Include="Mvc\ViewResolver.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Standard\Directories\Utility.cs" />
+    <Compile Include="Standard\Mvc\ConsoleLineSourceImpl.cs" />
+    <Compile Include="Standard\Mvc\LineSource.cs" />
+    <Compile Include="Standard\Mvc\CommandLineInputImpl.cs" />
+    <Compile Include="Standard\Mvc\CommandLineOutputImpl.cs" />
+    <Compile Include="Test\NfsTestAttribute.cs" />
+    <Compile Include="Test\NfsTestCase.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Exceptions" />
+    <Folder Include="Test" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

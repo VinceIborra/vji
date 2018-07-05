@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{96ABCF84-4DDD-4237-9EF1-6484B2A1C2F9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Vji.Mock</RootNamespace>
+    <AssemblyName>Vji.Mock</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>C:\home\opt\log4net-1.2.10\bin\net\2.0\release\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bootstrap\MockBootstrapperFactory.cs" />
+    <Compile Include="Bootstrap\MockBootstrapperFactoryImpl.cs" />
+    <Compile Include="Bootstrap\MockBootstrapperImpl.cs" />
+    <Compile Include="Licensing\MockLicenseImpl.cs" />
+    <Compile Include="Licensing\MockLicensingFactory.cs" />
+    <Compile Include="Licensing\MockLicensingFactoryImpl.cs" />
+    <Compile Include="Log4net\MockLog4netFactory.cs" />
+    <Compile Include="Log4net\MockLog4netFactoryImpl.cs" />
+    <Compile Include="Log4net\MockLoggerRecipientImpl.cs" />
+    <Compile Include="Mvc\MockCommand.cs" />
+    <Compile Include="Mvc\MockCommandImpl.cs" />
+    <Compile Include="Mvc\MockControllerImpl.cs" />
+    <Compile Include="Mvc\MockDriverImpl.cs" />
+    <Compile Include="Mvc\MockInputImpl.cs" />
+    <Compile Include="Mvc\MockUnsafeViewImpl.cs" />
+    <Compile Include="Mvc\Factory.cs" />
+    <Compile Include="Mvc\FactoryImpl.cs" />
+    <Compile Include="Mvc\MockOutputImpl.cs" />
+    <Compile Include="Mvc\MockViewImpl.cs" />
+    <Compile Include="Mvc\MockViewResolverImpl.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Standard\Mvc\DoitCommand.cs" />
+    <Compile Include="Standard\Mvc\DoitCommandImpl.cs" />
+    <Compile Include="Standard\Mvc\FactoryImpl.cs" />
+    <Compile Include="Standard\Mvc\MockLineSourceImpl.cs" />
+    <Compile Include="Standard\Mvc\MockParserImpl.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Vji\Vji.csproj">
+      <Project>{2E41425A-D1A4-46E7-B8C4-CAFF5BE87E34}</Project>
+      <Name>Vji</Name>
+      <Private>True</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Standard" />
+    <Folder Include="Standard\Mvc" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

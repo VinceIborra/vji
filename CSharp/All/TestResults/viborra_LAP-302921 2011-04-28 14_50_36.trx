@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a6b2fca5-322b-45c2-b025-922d31b9fe7a" name="viborra@LAP-302921 2011-04-28 14:50:36" runUser="SERVICES\viborra" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="e9983c80-7cac-4f17-99b1-51a5ee880c99">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="I:\home\context\clowder\projects\CSharp\All\TestResults\viborra_LAP-302921 2011-04-28 14_50_36">
+      <DeploymentItem filename="I:\home\context\clowder\projects\CSharp\Vji.App.CommandLineChess\bin\Debug\Vji.App.CommandLineChess.exe" />
+      <DeploymentItem filename="I:\home\context\clowder\projects\CSharp\Vji.Chess\bin\Debug\Vji.Chess.dll" />
+      <DeploymentItem filename="I:\home\context\clowder\projects\CSharp\Vji\bin\Debug\Vji.dll" />
+      <DeploymentItem filename="I:\home\context\clowder\projects\CSharp\Vji.Mock\bin\Debug\Vji.Mock.dll" />
+      <DeploymentItem filename="C:\Program Files\Spring.NET 1.3.0\bin\net\2.0\release\Spring.Core.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2011-04-28T14:50:36.5864323+10:00" queuing="2011-04-28T14:50:37.6645573+10:00" start="2011-04-28T14:50:37.8208073+10:00" finish="2011-04-28T14:50:38.9145573+10:00" />
+  <TestDefinitions>
+    <UnitTest name="TestToText" storage="i:\home\context\clowder\projects\csharp\vji.test\bin\debug\vji.test.dll" id="aa39f5b2-8c6b-6f1b-8e6e-470453ee71f7">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="96b7b5c6-709b-4259-9f0d-9e68a0797d8a" />
+      <TestMethod codeBase="I:\home\context\clowder\projects\CSharp\Vji.Test\bin\Debug\Vji.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="System.Collections.Generic.DictionaryExtensionsTest, Vji.Test" name="TestToText" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="aa39f5b2-8c6b-6f1b-8e6e-470453ee71f7" executionId="96b7b5c6-709b-4259-9f0d-9e68a0797d8a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="96b7b5c6-709b-4259-9f0d-9e68a0797d8a" testId="aa39f5b2-8c6b-6f1b-8e6e-470453ee71f7" testName="TestToText" computerName="LAP-302921" duration="00:00:00.1141483" startTime="2011-04-28T14:50:37.8833073+10:00" endTime="2011-04-28T14:50:38.8520573+10:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <StdOut>2011-04-28 14:50:38,758 [Agent: adapter run thread for test 'TestToText' with id '96b7b5c6-709b-4259-9f0d-9e68a0797d8a'] DEBUG LogBootstrapperImpl [(null)] - Logging bootstrapped.</StdOut>
+        <DebugTrace>Vji.Bootstrap.LogBootstrapperImpl: 2011-04-28 14:50:38,758 [Agent: adapter run thread for test 'TestToText' with id '96b7b5c6-709b-4259-9f0d-9e68a0797d8a'] DEBUG [(null)] - Logging bootstrapped.
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

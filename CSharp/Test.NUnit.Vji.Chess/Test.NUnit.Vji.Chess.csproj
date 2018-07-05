@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{0A32DCDB-3DF4-4EC1-B960-6476142D35AC}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Test.NUnit.Vji.Chess</RootNamespace>
+    <AssemblyName>Test.NUnit.Vji.Chess</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="NUnit.Framework">
+      <HintPath>$(SharpDevelopBinPath)\Tools\NUnit\NUnit.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Spring.Core">
+      <HintPath>C:\Program Files\Spring.NET 1.3.2\bin\net\4.0\release\Spring.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Model\BoardImplTest.cs" />
+    <Compile Include="Model\FactoryImplTest.cs" />
+    <Compile Include="Mvc\BoardViewImplTestcs.cs" />
+    <Compile Include="Mvc\ChessControllerImplTest.cs" />
+    <Compile Include="Mvc\ChessNotationParserImplTest.cs" />
+    <Compile Include="Mvc\FactoryImplTest.cs" />
+    <Compile Include="Mvc\StartBoardViewImplTest.cs" />
+    <Compile Include="Mvc\UnknownCommandViewImplTest.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Test\ChessTestCaseImpl.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Model" />
+    <Folder Include="Mvc" />
+    <Folder Include="Test" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Vji.Chess\Vji.Chess.csproj">
+      <Project>{ADBB32F8-803A-4E65-BCC6-C7DE3190FE18}</Project>
+      <Name>Vji.Chess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Vji.NUnit\Vji.NUnit.csproj">
+      <Project>{0A725E95-A62F-4A04-8FE2-8E38DED1DF71}</Project>
+      <Name>Vji.NUnit</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Vji.Spring\Vji.Spring.csproj">
+      <Project>{B02DD033-CC95-470C-B499-875EEF67EEC0}</Project>
+      <Name>Vji.Spring</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Vji.Std\Vji.Std.csproj">
+      <Project>{94ED5723-5898-4ADF-8FB9-E9DC68D93529}</Project>
+      <Name>Vji.Std</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Vji\Vji.csproj">
+      <Project>{2E41425A-D1A4-46E7-B8C4-CAFF5BE87E34}</Project>
+      <Name>Vji</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+</Project>
